@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F4CDB45-C66C-477A-AFDE-DC1C4BA78FBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ver1</RootNamespace>
+    <AssemblyName>Ver1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HPTCMessageBox">
+      <HintPath>..\..\HPTCMessageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BNL\AccBNL.cs" />
+    <Compile Include="BNL\BNL_ALL.cs" />
+    <Compile Include="BNL\ItemBNL.cs" />
+    <Compile Include="BNL\UserBNL.cs" />
+    <Compile Include="DAL\AccDAL.cs" />
+    <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="ETT\Account.cs" />
+    <Compile Include="ETT\BangXepHang.cs" />
+    <Compile Include="ETT\Item.cs" />
+    <Compile Include="ETT\Shop.cs" />
+    <Compile Include="ETT\User.cs" />
+    <Compile Include="GUI\FrmChuNhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmChuNhat.Designer.cs">
+      <DependentUpon>FrmChuNhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FrmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmDangNhap.Designer.cs">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FrmDiemDanhHangNgay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmDiemDanhHangNgay.Designer.cs">
+      <DependentUpon>FrmDiemDanhHangNgay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FrmNhanVat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FrmNhanVat.Designer.cs">
+      <DependentUpon>FrmNhanVat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\FrmChuNhat.resx">
+      <DependentUpon>FrmChuNhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmDangNhap.resx">
+      <DependentUpon>FrmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmDiemDanhHangNgay.resx">
+      <DependentUpon>FrmDiemDanhHangNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\FrmNhanVat.resx">
+      <DependentUpon>FrmNhanVat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrmMain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sam Set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O4YIM70.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13825-NPBS6D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DC_Fan_Art_12_little_green_lantern_by_sham93-d5a4o4q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13933563_980250468754413_1129261744_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31-01-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18580-NRTUEC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiftClose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiftOpen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPDXMLib">
+      <Guid>{73F0DD5C-D071-46B6-A8BF-897C84EAAC49}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLauncher">
+      <Guid>{5CB42160-CD7C-4806-9367-1C4A65153F4A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MacDinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Den.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Do.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_LaCay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Tim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Vang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Xanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Den.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Do.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_LaCay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Tim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Vang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Xanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xe7.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,44 @@
+C:\Users\hackd\Desktop\Speed King\Ver1\bin\Debug\Ver1.exe.config
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\bin\Debug\Ver1.exe.config
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\bin\Debug\Ver1.exe
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\bin\Debug\Ver1.pdb
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.csprojResolveAssemblyReference.cache
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.FrmDangNhap.resources
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.Properties.Resources.resources
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.csproj.GenerateResource.Cache
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.exe
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.pdb
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\bin\Debug\HPTCMessageBox.dll
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmDiemDanhHangNgay.resources
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmChuNhat.resources
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmMain.resources
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Interop.WMPLib.dll
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.csproj.ResolveComReference.cache
+C:\Users\hackd\Desktop\XXX\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmNhanVat.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\bin\Debug\Ver1.exe.config
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPLib.dll
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.csproj.ResolveComReference.cache
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.exe
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.pdb
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\bin\Debug\Ver1.exe
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\bin\Debug\Ver1.pdb
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\bin\Debug\HPTCMessageBox.dll
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.csprojResolveAssemblyReference.cache
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmChuNhat.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.FrmDangNhap.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmDiemDanhHangNgay.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmMain.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.GUI.FrmNhanVat.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.Properties.Resources.resources
+C:\Users\hackd\Desktop\Speed King\Speed King\Ver1\obj\Debug\Ver1.csproj.GenerateResource.Cache
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\bin\Debug\Ver1.exe.config
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPDXMLib.dll
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPLauncher.dll
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Interop.WMPLib.dll
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Ver1.csproj.ResolveComReference.cache
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Ver1.exe
+D:\Google Drive\Test BT\Speed King\Speed King\Ver1\obj\Debug\Ver1.pdb
